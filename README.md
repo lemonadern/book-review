@@ -4,13 +4,13 @@
 
 ## 読み方
 
-- <https://github.com/azu/book-review/releases> に記事の一覧があります
-- 書籍ごとの感想は[Issue](https://github.com/azu/book-review/issues?q=is%3Aissue+is%3Aclosed+label%3A%22Status%3A+Released%22)ごとに書かれています
+- <https://github.com/lemonadern/book-review/releases> に記事の一覧があります
+- 書籍ごとの感想は[Issue](https://github.com/lemonadern/book-review/issues?q=is%3Aissue+is%3Aclosed+label%3A%22Status%3A+Released%22)ごとに書かれています
 
 ## 更新の購読方法
 
 - リポジトリの Watch →　Custom →　Releases を購読するとリリースだけを購読できます
-- RSSで読みたい場合は <https://github.com/azu/book-review/releases.atom> を購読してください
+- RSSで読みたい場合は <https://github.com/lemonadern/book-review/releases.atom> を購読してください
 
 ## リアクションの方法
 
@@ -23,7 +23,7 @@
 
 このブログシステムを使いたい人向けのガイドです。
 
-1. このリポジトリをテンプレートにして新しいリポジトリを作成: <https://github.com/azu/book-review/generate>
+1. このリポジトリをテンプレートにして新しいリポジトリを作成: <https://github.com/lemonadern/book-review/generate>
 2. 作成したリポジトリの `https://github.com/{owner}/{repo}/actions/workflows/setup.yml` にアクセスし"Run Workflow"を実行する
    - 必要なラベルなどがセットアップされます
 3. [必要なら] リポジトリのSettingsからDiscussionsを有効にする
@@ -33,7 +33,7 @@
 
 1. Issueを作り、タイトルに書籍のタイトルを入れて、本文に感想を入れる
 2. Issueに"Status: Draft"のラベルを付ける
-3. GitHub Actionsが"Status: Draft"のIssueをまとめた[Draft Release](https://github.com/azu/book-review/releases)を作成する
+3. GitHub Actionsが"Status: Draft"のIssueをまとめた[Draft Release](https://github.com/lemonadern/book-review/releases)を作成する
 4. 公開したくなったらDraft Releaseを編集して、Publishすると公開され、DraftのIssueは閉じられる
 
 ## 機能
@@ -65,7 +65,7 @@
   - Issueを編集すれば、共同編集ができます
   - Issueを立てた人が、そのIssueの執筆者となります
 - 検索
-  - <https://github.com/azu/book-review/releases>には全文検索がついています
+  - <https://github.com/lemonadern/book-review/releases>には全文検索がついています
 - Markdown
   - GitHub Issuesに書けるMarkdownは全て対応しています
 - アクセス解析
